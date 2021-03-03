@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///rbac
+    username: root
+    password: 1044
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #\u914D\u7F6Emybatis-plus\u5C06\u65E5\u5FD7\u6253\u5370\u5230\u63A7\u5236\u53F0
+
+server:
+  port: 8888
